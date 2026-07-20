@@ -71,7 +71,7 @@ The workflow consists of:
 
 - Successfully analyzed **20,111** clean energy news articles using topic modeling.
 - Compared statistical (TF-IDF) and semantic (KeyBERT) feature representations before LDA modeling.
-- TF-IDF achieved the highest **Coherence Score (C_v = 0.6043)** at **40 topics**.
+- The KeyBERT-based representation produces the best topic quality at K=6, with a coherence C_v score of 0.6558 and a topic diversity score of 0.9333. Meanwhile, the best TF-IDF-based model is obtained at K=40, with a coherence C_v score of 0.6043 and a topic diversity score of 0.7050. 
 - The KeyBERT-based model produced more semantically meaningful and interpretable topics, making it more suitable for thematic analysis despite a lower coherence score.
 - The final analysis identified six major clean energy themes:
   - Biofuels and Hydrogen Production
